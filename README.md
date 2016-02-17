@@ -1,125 +1,39 @@
-# Baseplate
+# 未得之地為何可以被分配？
 
-<div class="meta subtitle">
-Beautiful documents, no pain
-</div>
+約書亞 13:1-7 在意思上是一塊的，內容是說在約書亞 1:4 提到的「應許之地」裡，還有哪些部份是「未得之地」，雖然未得，但是現在「你只管照我所吩咐的」去分配這些未得之地。
 
-Baseplate is a dead-simple way to turn
-[markdown](http://daringfireball.net/projects/markdown/) files into
-beautifully-styled webpages without any external programs. Just drop files in a
-web-accessible directory and go. It uses
-[showdown.js](https://github.com/coreyti/showdown) to render markdown on the
-fly in the browser.
+這段經文裡隱含兩面意義：
 
-Features:
+1. 我交代你要辦的，你都已經辦到老了，還是辦不完
+2. 但是沒關係，你還是可以把這些當成辦完了
 
-* Updating the output is simple: just edit the markdown source files. Whenever
-  you reload the Baseplate index page, AJAX fetches the markdown file and
-  re-renders the output using showdown.js.
-* No special server is required. Publish documents on any website.
-* `Last-Modified` headers are parsed and included in the page footer to
-  indicate when the content was last changed.
-* Page titles are automatically updated with the content of the first H1 header.
+上帝說是就是，不是就不是，辦完就辦完，沒辦完就沒辦完，那這裡為什麼要把沒辦完的當成辦完呢？因為有上帝的應許在。而絕對公義的上帝之所以可以做到這種看似不公義以及偏袒的事，是因為他自己為我們付出代價，以致於我們現在可以被當成辦完。
 
-Non-features:
+就如同一個基督徒在窮盡一生努力依然無法達到上帝的標準，卻依然被上帝接納，為什麼呢？因為基督已經替我們付出了代價，因此在公義的上帝面前，他可以接納不公義的我們，因為我們「披戴基督」（加3:29）。
 
-* Baseplate is not as flexible as alternatives like
-  [jekyll](http://jekyllrb.com/); it cannot run other programs like
-  [Sass](http://sass-lang.com/) to post-process or minimize CSS or JavaScript
-  files.
-* All markdown source files must be web-accessible. Otherwise, Baseplate would
-  not be able to read them.
+我們可以說信用卡是上帝發明的，在基督來之前，上帝就刷卡還罪債來饒恕人，在基督受死時所有罪債就已經還清，連以後的份都還完了。所以基督還的罪債對過去、現在、未來的罪債都有效用，從此我們也欠了福音的債。
 
-## Demo
+而當我們在思考恩典與自己的責任時，我們可能會偏左或偏右，要嘛太偏恩典輕視責任，要嘛太偏責任忽略恩典，但上帝的道是不偏左也不偏右的，我們要如何達到恩典與責任的平衡點呢？就是要注意到平衡點是在基督身上。
 
-See this document rendered by Baseplate.  
-[http://dev.quadpoint.org/baseplate/#!/README](http://dev.quadpoint.org/baseplate/#!/README)
+我們一方面知道上帝對我們的要求，就盡力去做，負起自己的責任到死為止，但我們並不會因為做不到就恐懼，因為知道基督會遮蓋我們；而另一方面又知道上帝的應許必定成真，就心底有平安的放膽去做，但又不會因為已經得到應許就懶散，因為知道我們的懶散其實會讓基督付出血的代價。就這樣，在恩典與責任間，因為思考到了基督就有了一個平衡點。
 
-Baseplate uses `README.md` as the source.  
-[http://dev.quadpoint.org/baseplate/README.md](http://dev.quadpoint.org/baseplate/README.md)
+我們可以用同樣的邏輯去明白肉體與情慾相爭的例子。
 
-## Installation and usage
+保羅 7:21-25 記著：
 
-Three simple commands get you a full Baseplate installation.
+> 我覺得有個律，就是我願意為善的時候，便有惡與我同在。因為按着我裏面的意思，我是喜歡上帝的律；但我覺得肢體中另有個律和我心中的律交戰，把我擄去，叫我附從那肢體中犯罪的律。我真是苦啊！誰能救我脫離這取死的身體呢？
 
-    % git clone git://github.com/msparks/baseplate.git
-    % cd baseplate
-    % python -m SimpleHTTPServer 8001
+這裡保羅明明承認無法脫離自己肉體的罪，但是下一句忽然又說：
 
-The last command starts a Python webserver that serves files from the
-*baseplate* directory at [http://localhost:8001](http://localhost:8001). If
-everything worked, you should see this document at that URL.
+> 感謝上帝，靠着我們的主耶穌基督就能脫離了。
 
-Adding new documents is easy. Just create new markdown files (with the
-extension *.md*) in the *baseplate* directory (the same one that contains
-*index.html*). To see these documents using Baseplate, add `#!/pagename` to the
-URL, where `pagename` is the name of the corresponding file without the *.md*
-extension. For example, the content for this page is in `README.md`, so the
-rendered page can be accessed at
-[http://localhost:8001/#!/README](http://localhost:8001/#!/README).
+但到底為什麼靠著主耶穌基督就可以脫離呢？
 
-If no page is specified in the URL, Baseplate will attempt to load `index.md`
-first. If that fails, it will try to load `README.md` (this file).
+原因就是基督。上帝因著主耶穌的寶血，就將這個一直與肉體掙扎的罪人當成無罪的人，所以就出現一個看似矛盾的狀況：明明保羅沒有勝過，但是卻被上帝當成一個勝過的人，以致於他可以免去死亡。
 
-### Hosting Baseplate elsewhere
+這個原則也在羅馬書 12:2 記載，是基督徒生命的一個重點：
 
-The quick-start example above shows how to host Baseplate-rendered documents on
-your own computer, but you can easily use Baseplate anywhere you have public
-webspace. Just copy the files created by the `git clone` command to a
-web-accessible directory on your webhost of choice. After that, you need only
-add and update your markdown files.
+> 不要效法這個世界，只要心意更新而變化…
 
-### Using Baseplate on Dropbox
-
-[Dropbox](http://db.tt/hcdgDWe) is a free service for putting your files in the
-cloud. All Dropbox accounts include a
-[Public directory](http://www.dropbox.com/help/16) that you can drop files in
-to instantly publish on the web. This feature works great with Baseplate; just
-install Baseplate in your Public directory and copy the public link to the
-`index.html` file in your Baseplate installation.
-
-## FAQ
-
-### Can I organize my files into subdirectories?
-
-Yes. In fact, this is an excellent way to organize many collections of
-documents. For example, you may have a directory for notes and a directory for
-projects containing many subdirectories for all of your projects. Your file
-tree might look something like this:
-
-    .
-    |-- notes
-    |   |-- index.md
-    |   +-- programming.md
-    +-- projects
-        |-- foobarbazzle
-        |   |-- index.md
-        |   +-- bazzle.png
-        +-- quuxinator
-            |-- index.md
-            +-- settings.md
-
-If a directory is specified in the URL hash, the *index.md* file within that
-directory is loaded. To access to *quuxinator* project in the example above,
-you would use the URL hash `#!/projects/quuxinator/`. Note that the last
-forward slash is required to indicate that it is a directory. To access the
-*settings* document in the *quuxinator* project, you would just add *settings*
-to the URL hash: `#!/projects/quuxinator/settings`.
-
-### How do I use images with Baseplate?
-
-Image files are referenced relative to where the Baseplate index.html file is
-installed. To include an image in a document, copy the image file to the
-directory within your Baseplate installation, such as into the directory
-containing the document that references the image, and reference it using
-regular markdown syntax. For example, to include the *bazzle.png* image in the
-subdirectories FAQ example above, you would use:
-
-    ![Alt text](projects/foobarbazzle/bazzle.png)
-
-Note that there is no forward slash before *projects*; this would create an
-absolute path that would be invalid if your Baseplate installation is within a
-subdirectory of the document root on the webserver. Also, the full relative
-path to images (and other files) must be specified, even within documents in
-*projects/foobarbazzle/*, because web browsers construct their URLs relative to
-the Baseplate root directory.
+保羅所說的原則：「隨心意更新而變化」，讓我們可以不斷的累積，接近上帝無限聖潔的標準，雖本身仍是有罪（未達標），但在接近的過程中就發揮出剩餘的最大價值。
+當一個人明白恩典與責任的平衡時，就自然會出現這樣的生活態度，這也是上帝教導老約書亞應有的態度：「你老了，還有許多未得之地」但是上帝沒有叫他休息，因為基督徒的生命是不斷的變化，沒有停止的一天，但就算沒有變化成完美的樣式也沒有關係，因為基督的代償，所以我們仍然可以照上帝所吩咐的得到產業，也就是新天新地。
